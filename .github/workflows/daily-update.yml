@@ -1,0 +1,29 @@
+name: daily-update
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      domain:
+        description: 'Domain to scan'
+        default: 'all'
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r agents/requirements.txt
+      - run: python agents/daily-scan.py --domain "${{ inputs.domain || 'all' }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      - run: |
+          git config user.name "ai-agent"
+          git config user.email "ai-agent@users.noreply.github.com"
+          git add 01-javascript-trending/_daily/ 03-llm-applications/libraries-matrix.md
+          git diff --cached --quiet || git commit -m "daily: trending update $(date -u +%F)"
+          git push

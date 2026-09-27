@@ -1,0 +1,13 @@
+sources:
+  javascript: [npm-trending, github-trending]
+  llm: [github-releases-langchain, huggingface-trending]
+  devops: [aws-blog, azure-blog]
+
+output:
+  daily_dir: "01-javascript-trending/_daily"
+  matrix_file: "03-llm-applications/libraries-matrix.md"
+
+llm_summarizer:
+  provider: openai  # or anthropic, ollama
+  model: gpt-4o-mini
+  max_tokens: 1200

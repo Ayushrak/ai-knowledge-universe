@@ -1,0 +1,16 @@
+# Taxonomy — single source of truth for tags
+
+domains: [javascript, backend, llm, rag, agents, devops, dotnet, java, frontend, architecture]
+roles: [ai-architect, ai-engineer, frontend-developer, backend-developer, dotnet-developer, dotnet-architect, java-developer, devops-engineer, software-developer]
+levels: [beginner, intermediate, production, expert]
+sources: [official-docs, github-trending, npm, huggingface, aws-blog, azure-blog, thoughtworks-radar]
+
+chunking:
+  max_tokens: 600
+  split_on: "##"
+  keep_frontmatter: true
+
+retrieval:
+  strategy: hybrid
+  vector_field: embeddings
+  keyword_fields: [domain, role, tags]
