@@ -70,3 +70,22 @@ New / updated vs above:
 - Honda Japan — 1 (NEW), TruckX — 1 (NEW), Nexus — 1 (NEW), Motilal Oswal — 1 (NEW), Visa — 1 (NEW), C-DOT — 1 (NEW), Pace Stock Broking — 1 (NEW), Wipro — 1 (NEW), Rx Consultant — 1 (NEW), Rakuten — 1 (NEW), BitGo — 1 (NEW), EarnIn — 1 (NEW), JustPay — 1 (NEW), Jupiter Money — 1 (NEW), Coupa — 1 (NEW), NXP Semiconductors — 1 (NEW), Neysa (AI startup) — 1 (NEW)
 
 Miss check: all 39 in your message are now present — 27 were missing before (SAP, TIAA, BofA, Bayer, MathWorks, Easebuzz, Media.net, Fujitsu, Mercedes, Marsh, Reliance, Honda, TruckX, Nexus, Motilal, Visa, C-DOT, Pace, Wipro, Rakuten, BitGo, EarnIn, JustPay, Jupiter, Coupa, NXP, Neysa + Rx Consultant). None missed now.
+
+## Third list (merged — all 15 added)
+- Walmart — 3 (NEW) | https://careers.walmart.com
+- Marvell (PPO) — 3 (NEW) | https://www.marvell.com/company/careers
+- Microsoft — +2 Applied Scientist (prev 12, AI role) | https://careers.microsoft.com
+- EY GDS — 2 (NEW) | https://www.ey.com/en_in/careers
+- LinkedIn (PPO) — 1 AI Engineer (NEW) | https://www.linkedin.com/jobs
+- Quantitative Brokers (PPO) — 1 (NEW, quant) | https://www.quantitativebrokers.com
+- Honda R&D Japan — 2 AI Researcher (prev Honda Japan 1, now R&D 2)
+- FourKites — 1 (NEW) | https://www.fourkites.com
+- Qualcomm — +1 (prev 10)
+- Accenture India — 1 (prev S&C 1 + Operations 1)
+- Collins Aerospace — 1 (NEW) | https://www.collinsaerospace.com
+- EarnIn — +2 (prev 1)
+- MathWorks — +1 (prev 3)
+- Kotak Mahindra Bank — 1 (NEW) | https://www.kotak.com/en/about-us/careers
+- SOL Tech — 1 (NEW)
+
+Miss check: 9 were missing (Walmart, Marvell, EY GDS, LinkedIn, QB, FourKites, Collins, Kotak, SOL Tech) — all added now.
