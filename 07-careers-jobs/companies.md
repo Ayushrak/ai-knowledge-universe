@@ -23,6 +23,7 @@ e.g. AI devtools, RAG infra, Next.js SaaS — apply via Wellfound, note round + 
 Razorpay, Zerodha, Freshworks, Postman — via Cutshort/Hirist/LinkedIn.
 
 ## Cat 3 — Big MNCs that hire at IITs (on-site + high CTC)
+Full 60+ list with offer counts in `iit-kgp-internship-offers.md` (IIT-KGP 408 offers: Texas Instruments 29, BlackRock 26, Google/Amazon 20, NVIDIA 16, Adobe/Databricks 14, plus Quant: Tower/Quadeye/DE Shaw/HRT/Jump/Optiver).
 Google, Microsoft, Amazon, Meta, Apple, Netflix, Adobe, Oracle, Samsung R&D, Qualcomm, NVIDIA, Uber, Goldman Sachs, Tower Research, Atlassian — via LinkedIn + Naukri + campus.
 
 ## Cat 4 — Indian IT MNCs (bulk on-site/hybrid)
