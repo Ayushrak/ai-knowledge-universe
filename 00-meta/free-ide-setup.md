@@ -5,7 +5,7 @@ role: [software-developer, ai-engineer]
 level: [beginner]
 updated: 2026-09-27
 source: [official-docs]
-tags: [opencode, antigravity, kiro, pi, openrouter-free, hermes]
+tags: [opencode, antigravity, kiro, pi, cline, openrouter-free, hermes]
 ---
 
 # Free IDEs + OpenRouter :free Models
@@ -42,5 +42,8 @@ $env:OPENAI_API_KEY="sk-or-..."
 pi --model "nousresearch/hermes-3-llama-3.1-405b:free"
 ```
 Hermes same — Pi defaults work well with Hermes instruction format.
+
+## 5. Cline (VS Code extension)
+Extensions → Cline → Settings (gear) → API Provider `OpenRouter` → Key `sk-or-...` → Model `meta-llama/llama-3.3-70b-instruct:free` (or `qwen/qwen-2.5-coder-32b-instruct:free` for code). Hermes same: pick `nousresearch/hermes-3-llama-3.1-405b:free` in model list. Docs: https://docs.cline.bot
 
 Limits: 50/day free (1000/day after $10 top-up one-time). For daily repo scans this is enough; heavy use → switch to Gemini/Groq free per `free-llm-keys.md`.
