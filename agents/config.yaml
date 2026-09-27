@@ -1,13 +1,20 @@
 sources:
   javascript: [npm-trending, github-trending]
   llm: [github-releases-langchain, huggingface-trending]
+  backend: [github-trending-dotnet-java]
   devops: [aws-blog, azure-blog]
 
 output:
   daily_dir: "01-javascript-trending/_daily"
   matrix_file: "03-llm-applications/libraries-matrix.md"
 
+# FREE summarizer — no OpenAI needed. Set ANY ONE free key.
+# Priority auto: GEMINI_API_KEY > GROQ_API_KEY > GITHUB_TOKEN > HF_TOKEN > OPENROUTER_API_KEY > ollama-local
 llm_summarizer:
-  provider: openai  # or anthropic, ollama
-  model: gpt-4o-mini
-  max_tokens: 1200
+  provider: free-auto
+  model: gemini-2.0-flash
+  max_tokens: 800
+  fallback_models:
+    - llama-3.3-70b-versatile
+    - openai/gpt-4o-mini
+    - meta-llama/llama-3.3-70b-instruct:free
