@@ -54,3 +54,19 @@ Source: user screenshots (logo wall + offer table). Counts = Total Offers per co
 - Intuit — 3, Stripe — 1, PocketFM — 15, Plivo — 5, Info Edge — 4, Glean — 3, Rubrik — 3, Sprinklr — 3, UiPath — 3, Corridor Platforms — 3, Finmechanics — 3, PeakXV — 3, Bain — 6/8, BCG — 3, McKinsey — 2, HUL — 4, ITC — 9, Bajaj — 8, Piramal Pharma — 4, P&G — 4
 
 Full table sum = 408. See `companies.md Cat 3` for how to target them (LinkedIn referral + Naukri + campus).
+
+## Second list (your latest message — merged, no misses left)
+New / updated vs above:
+- Qualcomm — 10 (prev 8, now 10) | semiconductors
+- Samsung — 7 (Noida 5, Bangalore 1, Delhi 1) (prev wall-only)
+- Apple — 6 (new count) | https://www.apple.com/careers
+- SAP Labs — 5 (NEW) | https://jobs.sap.com
+- TIAA Global — 4 (NEW) | https://careers.tiaa.org
+- Bank of America — 4 (NEW) | https://careers.bankofamerica.com
+- Bayer — 3 (NEW) | https://career.bayer.com
+- MathWorks — 3 (NEW) | https://www.mathworks.com/company/jobs
+- Easebuzz — 2 (NEW), Media.net — 2 (NEW), Fujitsu — 2 (NEW), Oracle — 2 (prev mentioned, now 2), Mercedes-Benz — 2 (NEW), Marsh McLennan — 2 (NEW), Stripe — +2 (prev 1), Reliance — 2 (NEW)
+- KLA — 1 (prev wall, now 1), Nvidia — 1 (additional round; main table 16), Accenture Strategy & Consulting — 1, Accenture Operations — 1, Navi — 1 (additional; main 12)
+- Honda Japan — 1 (NEW), TruckX — 1 (NEW), Nexus — 1 (NEW), Motilal Oswal — 1 (NEW), Visa — 1 (NEW), C-DOT — 1 (NEW), Pace Stock Broking — 1 (NEW), Wipro — 1 (NEW), Rx Consultant — 1 (NEW), Rakuten — 1 (NEW), BitGo — 1 (NEW), EarnIn — 1 (NEW), JustPay — 1 (NEW), Jupiter Money — 1 (NEW), Coupa — 1 (NEW), NXP Semiconductors — 1 (NEW), Neysa (AI startup) — 1 (NEW)
+
+Miss check: all 39 in your message are now present — 27 were missing before (SAP, TIAA, BofA, Bayer, MathWorks, Easebuzz, Media.net, Fujitsu, Mercedes, Marsh, Reliance, Honda, TruckX, Nexus, Motilal, Visa, C-DOT, Pace, Wipro, Rakuten, BitGo, EarnIn, JustPay, Jupiter, Coupa, NXP, Neysa + Rx Consultant). None missed now.
